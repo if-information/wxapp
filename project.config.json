@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
-	"appid": "wxed7fd41b7d9bb4a4",
-	"projectname": "WeChatMiniPro",
+	"appid": "您的appid，在小程序官网申请的",
+	"projectname": "您的工程名",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
