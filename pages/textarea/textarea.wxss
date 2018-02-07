@@ -1,0 +1,7 @@
+/* pages/textarea/textarea.wxss */
+.content{
+  margin: 15px;
+}
+textarea{
+  border: 2px solid black;
+}

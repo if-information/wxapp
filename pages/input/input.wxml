@@ -1,0 +1,34 @@
+<!--pages/input/input.wxml-->
+<view class='content'>
+  <text class='title'>type:根据类型不同，弹出的键盘类型也不同</text> 
+  <input placeholder='type=text' type='text' value=''/>
+  <input placeholder='type=number' type='number' value=''/>
+  <input placeholder='type=idcard' type='idcard' value=''/>
+  <input placeholder='type=digit' type='digit' value=''/>
+
+  password:
+  <input type='text' password='{{false}}' placeholder='请输入密码'/>
+  <input type='text' password='{{true}}' placeholder='请输入密码'/>
+
+  placeholder:
+  <input placeholder='占位符'/>
+
+  disable:
+  <input placeholder='disabled={{false}}' disabled='{{false}}'/>
+  <input placeholder='disabled={{true}}' disabled='{{true}}'/>
+
+  最大长度:
+  <input maxlength='10' placeholder='maxLength=10最多长度为10字符'/>
+  <input maxlength='5' placeholder='maxLength=5最多长度为5字符'/>
+  <input maxlength='-1' placeholder='值为-1则不限制长度'/>
+</view>
+
+<view class='content'>
+  bindinput="当内容改变时触发"
+  <input bindinput='bindinput'/>
+  bindfocus='获取焦点时触发'
+  <input bindfocus='bindfocus'/>
+  bindblur='当失去焦点时触发'
+  <input bindblur='bindblur'/>
+</view>
+

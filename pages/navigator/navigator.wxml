@@ -1,0 +1,10 @@
+<!--pages/navigator/navigator.wxml-->
+<view class='content' style='text-align:center'>
+  <view class='item'>
+    <navigator url='../label/label?title=navigate' hover-class='navigate-hover'>跳转到新页面</navigator>
+  </view>
+  <view class='item'>
+    <navigator url='../label/label?title=redirect' hover-class='navigate-hover2' redirect>在当前页打开</navigator>
+  </view>
+</view>
+

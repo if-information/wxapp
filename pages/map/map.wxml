@@ -1,0 +1,10 @@
+<!--pages/map/map.wxml-->
+<view class='content'> 
+  <text>基本地图</text>
+  <map longitude='121.54' latitude='38.89' markers='{{markers}}' controls></map>
+</view>
+<!-- map相关API -->
+<view class='content'>
+  <button type='primary' bindtap='showLocation'>获取当前地理位置并在地图中打开</button>
+  <map longitude='{{location.longitude}}' latitude='{{location.latitude}}' markers='{{markers2}}'></map>
+</view>

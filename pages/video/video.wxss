@@ -1,0 +1,4 @@
+/* pages/video/video.wxss */
+video{
+  margin: 20px;
+}

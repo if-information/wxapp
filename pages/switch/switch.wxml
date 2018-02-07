@@ -1,0 +1,14 @@
+<!--pages/switch/switch.wxml-->
+<view class='section'>
+  <text>普通switch : </text>
+  <view>
+    <switch/>
+  </view>
+</view>
+
+<view class='section'>
+  <text>type是checkbox的switch : </text>
+  <view>
+    <switch type='checkbox' checked bindchange='switch1Change'/>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+.title{
+  font-size: 25px;
+  color: #2A9193;
+}
+button{
+  color: white;
+  background-color: #58739C;
+  margin-bottom: 5px;
+  width: 85%;
+}

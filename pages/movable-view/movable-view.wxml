@@ -1,0 +1,10 @@
+<!--pages/movable-view/movable-view.wxml-->
+<view class='content'>
+  <text>movable-view区域小于movable-area</text>
+  <movable-area style="height:200px;width:330px;background:red;">
+    <movable-view style="height: 50px; width: 50px; background: blue;" x='{{x}}' y = '{{y}}' direction='all'>
+    </movable-view>
+  </movable-area>
+
+  <button bindtap='tap'>点击移动视图</button>
+</view>

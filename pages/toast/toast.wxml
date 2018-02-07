@@ -1,0 +1,5 @@
+<!--pages/toast/toast.wxml-->
+<view class='content'>
+  <button bindtap='showToast'>展示toast</button>
+  <button bindtap='hideToast'>隐藏toast</button>
+</view>

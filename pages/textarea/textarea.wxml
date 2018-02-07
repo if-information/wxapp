@@ -1,0 +1,21 @@
+<!--pages/textarea/textarea.wxml-->
+<view class='content'>
+  <textarea auto-height placeholder='自动增高,style.height不生效'></textarea>
+</view>
+
+<view class='content'>
+  <text>当内容改变时触发</text>
+  <textarea placeholder='' bindlinechange='bindlinechange'></textarea>
+</view>
+
+<view class='content'>
+  <text>当获取焦点</text>
+  <textarea placeholder='获取焦点' bindfocus='bindfocus'></textarea>
+</view>
+
+<view class='content'>
+  <text>当失去焦点</text>
+  <textarea placeholder='失去焦点' bindblur='bindblur'></textarea>
+</view>
+
+

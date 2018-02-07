@@ -1,0 +1,31 @@
+<!--pages/button/button.wxml-->
+<view class='content'>
+  <text class='con-text'>Mini按钮</text>
+  <button class='con-button' size='mini'>Mini</button>
+
+  <text class='con-text'>Default按钮</text>
+  <button class='con-button' size='default'>Default</button>
+
+  <text class='con-text'>Primary类型按钮</text>
+  <button class='con-button' type='primary'>OK</button>
+
+  <text class='con-text'>Default类型按钮</text>
+  <button class='con-button' type='default'>OK</button>
+
+  <text class='con-text'>Warn类型按钮</text>
+  <button class='con-button' type='warn'>OK</button>
+
+  <text class='con-text'>镂空按钮</text>
+  <button class='con-button' plain>Yes</button>
+
+  <text class='con-text'>禁用按钮</text>
+  <button class='con-button' disabled>OK</button>
+
+  <text class='con-text'>带有loading图标的按钮</text>
+  <button class='con-button' loading>OK</button>
+
+  <text class='con-text'>按钮点击样式改变和绑定事件</text>
+  <button class='con-button' hover-class='hoverclass' loading='{{isLoading}}' bindtap='changeLoading'>loading</button>
+</view>
+
+

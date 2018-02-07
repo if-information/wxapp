@@ -1,0 +1,2 @@
+<!--pages/action-sheet/action-sheet.wxml-->
+<button type='primary' bindtap='actionSheetTap'>弹出action-sheet</button>

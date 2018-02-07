@@ -1,0 +1,9 @@
+<!--pages/checkbox/checkbox.wxml-->
+<view>
+  <checkbox-group class='checkbox-group' bindchange='changed'>
+    <label class='items' wx:for='{{item}}'>
+      <checkbox value='{{item.value}}' checked='{{item.checked}}' disabled='{{item.disabled}}'/>
+      {{item.name}}
+    </label>
+  </checkbox-group>
+</view>

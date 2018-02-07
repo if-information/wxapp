@@ -1,0 +1,36 @@
+/* pages/form/form.wxss */
+.page{
+  min-height: 100%;
+  flex: 1;
+  background-color: #FBF9FE;
+  font-size: 32rpx;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+   overflow: hidden;
+}
+.nameInput{
+  border: 1px solid gray;
+  border-radius: 2px;
+  line-height: 30px
+}
+.section{
+    margin-bottom: 80rpx;
+}
+.section_gap{
+    padding: 0 30rpx;
+}
+.section_title{
+  font-size: 40rpx;
+  margin-bottom: 30rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-weight: bold;
+}
+.section_gap .section_title{
+    padding-left: 0;
+    padding-right: 0;
+}
+checkbox-group > label{
+  display: block;
+  padding: 2px;
+}
+

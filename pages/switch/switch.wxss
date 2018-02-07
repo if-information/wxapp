@@ -1,0 +1,5 @@
+/* pages/switch/switch.wxss */
+.section{
+  margin: 20px;
+  font-size: 20px;
+}

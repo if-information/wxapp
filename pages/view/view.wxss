@@ -1,0 +1,27 @@
+/* pages/view/view.wxss */
+.btnGroup{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+}
+.orange{
+  color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+}
+.blue{
+  color: #d9eef7;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+}
+.item{
+  text-align: center;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 5px;
+}

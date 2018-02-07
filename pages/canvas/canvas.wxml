@@ -1,0 +1,30 @@
+<!--pages/canvas/canvas.wxml-->
+<view class='content' style='text-align:center;'>
+  <canvas class='canvas' canvas-id='canvas1' bindtouchstart='mytouchstart' bindtouchmove='mytouchmove' bindtouchend='mytouchend' ></canvas>
+</view>
+
+<view class='content'>
+  <text>缩放：</text>
+  <canvas class='canvas' canvas-id='canvas2'></canvas>
+</view>
+
+<view class='content'>
+  <text>旋转：</text>
+  <canvas class='canvas' canvas-id='canvas3'></canvas>
+</view>
+
+<view class='content'>
+  <text>平移：</text>
+  <canvas class='canvas' canvas-id='canvas4'></canvas>
+</view>
+
+<view class='content'>
+  <text>存储：</text>
+  <canvas class='canvas' canvas-id='canvas5'></canvas>
+</view>
+  <button type='default' size='default' bindtap='saveAction'>另存</button>
+
+<view style='height:20px'>
+
+</view>
+

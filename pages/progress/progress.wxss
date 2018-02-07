@@ -1,0 +1,12 @@
+/* pages/progress/progress.wxss */
+.content{
+  padding-top: 20px;
+}
+.con-text{
+  display: block;
+  padding-bottom: 5px;
+}
+.con-pro{
+  color: cornflowerblue;
+  margin-bottom: 5px;
+}

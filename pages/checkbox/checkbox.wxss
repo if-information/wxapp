@@ -1,0 +1,9 @@
+/* pages/checkbox/checkbox.wxss */
+.items{
+  display: block;
+}
+.checkbox-group{
+  margin: 10px;
+  font-size: 30px;
+  color: lightseagreen
+}

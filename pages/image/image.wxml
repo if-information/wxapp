@@ -1,0 +1,16 @@
+<!--pages/image/image.wxml-->
+<view class='content'>
+  <view class='section'>
+    <text>原图片:</text>
+    <image src='{{imageSrc}}' mode='scaleToFill'></image>
+  </view>
+
+  <view wx:for="{{array}}" wx:for-item="item">
+    <view class='section'>
+      <view>
+        <text>{{item.text}}</text>
+      </view>
+      <image style='width:200px;height:200px;' mode='{{item.mode}}' src='{{imageSrc}}'></image>
+    </view>
+  </view>
+</view>

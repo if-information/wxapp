@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view>
+  <view style='text-align:center;margin-bottom:15px'>
+    <text class='title'>微信小程序组件展示</text>
+    <view>
+      <text style='font-size:15px;color:#999999'>源文科技</text>
+    </view>
+  </view>
+
+  <view class='body'>
+    <button bindtap='didClickButton' data-go='view'>view视图容器</button>
+    <button bindtap='didClickButton' data-go='scrollview'>scroll-view可滚动视图区域</button>
+    <button bindtap='didClickButton' data-go='movable-view'>movable-view</button>
+    <button bindtap='didClickButton' data-go='cover-view'>cover-view</button>
+    <button bindtap='didClickButton' data-go='swiper'>swiper滑块视图容器</button>
+    <button bindtap='didClickButton' data-go='icon'>icon图标</button>
+    <button bindtap='didClickButton' data-go='text'>text文本</button>
+    <button bindtap='didClickButton' data-go='progress'>progress进度条</button>
+    <button bindtap='didClickButton' data-go='button'>button按钮</button>
+    <button bindtap='didClickButton' data-go='checkbox'>checkbox多选项</button>
+    <button bindtap='didClickButton' data-go='form'>form表单</button>
+    <button bindtap='didClickButton' data-go='input'>input输入框</button>
+    <button bindtap='didClickButton' data-go='label'>label标签</button>
+    <button bindtap='didClickButton' data-go='picker'>picker滚动选择器</button>
+    <button bindtap='didClickButton' data-go='radio'>radio单选项目</button>
+    <button bindtap='didClickButton' data-go='slider'>slider滑动选择器</button>
+    <button bindtap='didClickButton' data-go='switch'>switch开关选择器</button>
+    <button bindtap='didClickButton' data-go='textarea'>textarea多行输入框</button>
+    <button bindtap='didClickButton' data-go='action-sheet'>action-sheet显示操作菜单</button>
+    <button bindtap='didClickButton' data-go='modal'>modal显示模态弹窗</button>
+    <button bindtap='didClickButton' data-go='toast'>toast显示消息提示</button>
+    <button bindtap='didClickButton' data-go='navigator'>navigator页面链接</button>
+    <button bindtap='didClickButton' data-go='audio'>audio音频</button>
+    <button bindtap='didClickButton' data-go='image'>image图片</button>
+    <button bindtap='didClickButton' data-go='video'>video视频</button>
+    <button bindtap='didClickButton' data-go='map'>map地图</button>
+    <button bindtap='didClickButton' data-go='canvas'>canvas画布</button>
+
+    <view style='height:20px'></view>
+  </view>
+</view>

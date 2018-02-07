@@ -1,0 +1,8 @@
+/* pages/picker/picker.wxss */
+.section{
+    margin-bottom: 80rpx;
+}
+.picker{
+  padding: 26rpx;
+  background-color: #FFFFFF;
+}

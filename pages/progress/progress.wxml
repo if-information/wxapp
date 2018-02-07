@@ -1,0 +1,27 @@
+<!--pages/progress/progress.wxml-->
+<view class='content'>
+  <text class='con-text'>进度条</text>
+  <progress class='con-pro' percent='80' show-info/>
+
+  <text class='con-text'>不显示百分比</text>
+  <progress class='con-pro' percent='94'/>
+
+  <text class='con-text'>展示百分比(百分比字体样式通过class控制)</text>
+  <progress class='con-pro' percent='94' show-info/>
+
+  <text class='con-text'>改变进度条线的宽度:15px</text>
+  <progress class='con-pro' percent='40' stroke-width='15'/>
+
+  <text class='con-text'>改变进度条颜色(#)：黑色</text>
+  <progress class='con-pro' percent='94' color='#000000'/>
+
+  <text class='con-text'>改变进度条颜色(已定义)：橘色</text>
+  <progress class='con-pro' percent='67' color='orange'/>
+
+  <text class='con-text'>几个属性叠加</text>
+  <progress class='con-pro' percent='87' color='lightgreen' show-info stroke-width='30'/>
+
+  <text class='con-text'>动态进度条</text>
+  <progress class='con-pro' percent='88' show-info stroke-width='20' active/>
+</view>
+

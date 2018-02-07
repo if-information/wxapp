@@ -1,0 +1,24 @@
+<!--pages/slider/slider.wxml-->
+<view>
+  <text>设置left/right (已失效)</text>
+  <slider bindchange='slider1change' left-icon='cancel' right-icon='success_no_circle'/>
+</view>
+
+<view>
+  <text>设置step</text>
+  <slider bindchange='slider2change' step='5'/>
+</view>
+
+<view>
+  <text>显示当前value</text>
+  <slider bindchange='slider3change' show-value/>
+</view>
+
+<view>
+  <text>设置最大值和最小值</text>
+  <slider bindchange='slider4change' min='50' max='200'/>
+</view>
+
+
+
+

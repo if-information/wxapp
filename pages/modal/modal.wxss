@@ -1,0 +1,7 @@
+/* pages/modal/modal.wxss */
+.content{
+  margin: 20px;
+}
+button{
+  margin: 20px;
+}

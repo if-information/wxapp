@@ -1,0 +1,5 @@
+<!--pages/modal/modal.wxml-->
+<view class='content'>
+  <button type='default' bindtap='showModal1'>简单设定的modal</button>
+  <button type='default' bindtap='showModal2'>全部自定义设定的modal2</button>
+</view>
